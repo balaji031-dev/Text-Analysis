@@ -1,0 +1,28 @@
+Political Intelligence Database
+
+Source: https://www.fec.gov/data/
+API: https://api.open.fec.gov/developers/
+- Raising
+- Spending
+- Candidates
+- Commiters
+- Filings and reports
+- Loans and depts.
+- Candidates and committee profiles
+- Contributions from individuals
+- Historical statistics
+Source: https://voteview.com/district/
+Bulk: https://voteview.com/data
+- Search by address or zip code
+- Historical representative
+- Congress
+- District
+- Ideology
+- Party
+- Member
+- Member demographics
+- Voting and registration
+Source: https://www.ontheissues.org/index.htm
+Source: https://www.opensecrets.org/
+- YouTube
+- Suggest more urls for data collection

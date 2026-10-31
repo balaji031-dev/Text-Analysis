@@ -1,0 +1,14 @@
+Complete List of Cybersecurity AI Tools & AI Software
+
+1. AI Security Operations (SOC) & Threat Detection
+2. AI Endpoint Detection & Response (EDR/XDR)
+3. AI Network Security
+4. AI Cloud Security
+5. AI Identity & Access Management (IAM)
+6. AI Vulnerability Management & Penetration Testing
+7. AI Email & Phishing Protection
+8. AI Security Analytics & SIEM
+9. AI Security Automation & Productivity
+10. AI Machine Learning & Security Research Platforms
+Are you looking for a team? Post your project here: https://workcroft.com/
+Are you looking for projects? Find projects here: https://workcroft.com/

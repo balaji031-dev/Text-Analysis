@@ -1,0 +1,50 @@
+ELK Stack – Elastic Queries
+
+Project Objective
+Save search queries for the index in Kibana on AWS. Make visualizations to view the yearly distribution of the image on the basis of the model of the camera and company of camera and tables to get the frequency of label of the image.
+Project Description
+Create search queries for image data for the following queries
+- Photos over time (taken, uploaded)
+- Images by camera
+- Images by camera over time
+- Images by labels (needs to include nested labels)
+- Images by labels over time
+and provide details regarding the usage of queries to filter data.
+Make visualizations to display the yearly distribution of the image on the basis of the model of the camera and the company of the camera. Also, put a table to show the frequency distribution of the model within the camera company and a table for the count of labels of the images.
+Our Solution
+Created search queries on Kibana which filters data according to the mentioned queries with the editable empty field value.
+Following are the solutions for the respective query
+- Photos over time (taken, uploaded)
+Query: exifData.exif.exif.DateTimeOriginal >”YYYY-MM-DD” and exifData.exif.exif.DateTimeOriginal <“YYYY-MM-DD”
+by replacing “YYYY-MM-DD” with start date and end date, user can set the range of the data that user is interested in
+- Images by camera
+Query: exifData.LensModel.description : “camera” and exifData.LensModel.value: “camera”
+by replacing “camera” with the model name user is interested in, this query will filter the data with the camera model name input by the user
+- Images by camera over time
+Query: (exifData.LensModel.description : “camera” and exifData.LensModel.value: “camera”) and (exifData.exif.exif.DateTimeOriginal >”YYYY-MM-DD” and exifData.exif.exif.DateTimeOriginal <“YYYY-MM-DD”)
+by replacing “camera” with the model name user is interested in and replacing “YYYY-MM-DD” with start date and end date, user can retrieve the data with a specific camera model in the input date range from this query
+- Images by labels (needs to include nested labels)
+Query: (Labels.Name: “Person1″ or Labels.Name:”Human”) and (Labels.Parents.Name.keyword: “Person2”)
+by replacing “Person1″/”Human” with the label name user is interested in and replacing “Person2” with the label name of parent user is interested in, this query will filter the data with the label name and label name of parent input by the user
+- Images by labels over time
+Query: (Labels.Name: “Person1″ or Labels.Name:”Human”) and (Labels.Parents.Name.keyword: “Person2″) and (exifData.exif.exif.DateTimeOriginal >”YYYY-MM-DD” and exifData.exif.exif.DateTimeOriginal <“YYYY-MM-DD”)
+by replacing “Person1″/”Human” with the label name user is interested in and replacing “Person2” with the label name of parent user is interested in and replacing “YYYY-MM-DD” with start date and end date, user can retrieve the data with a specific or more label name and label name of parent in the input date range from this query
+Created 2 visualizations showing yearly distribution of the image one on the basis of model of camera and other for company of camera. Made a count table to show the frequency of models with respect to company of camera. Made frequency table of Label names as well.
+Project Deliverables
+2 visualizations
+5 search queries
+2 tables
+Tools used
+Kibana & Elasticsearch
+Language/techniques used
+Lucene language is used on Kibana to make search queries
+Skills used
+Visualization and analytical skills were used
+Databases used
+Image label dataset is used
+Web Cloud Servers used
+Amazon Web Services
+What are the technical Challenges Faced during Project Execution
+Too many fields made it a bit ambiguous firstly while understanding the existing fields
+How the Technical Challenges were Solved
+The client helped in explaining a few terms and fields, then it fields were quite clear while exploring data

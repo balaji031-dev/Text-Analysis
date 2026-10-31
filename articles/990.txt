@@ -1,0 +1,23 @@
+Transforming Insurance Claim Processing with Automation & Artificial Intelligence
+
+Client Background
+Client: One of the leading Insurance firm in the USA
+Industry Type: Insurance
+Services: Health policies, auto insurance, real estate insurance, goods, and services Insurance
+Organization Size: 200-500
+Challenges
+The client was employing a traditional method of Insurance claim procedure for their auto insurance policy. Where the agent is required to visit the policyholder place to examine the condition of the vehicle. After examining, the system was manual to analyze and process the claims, major and minor damages for their customer, which used to take weeks. This step is necessary for the company to divide the claim either in the major type of damage or minor type of damage and process the claim amount accordingly.
+Solution
+Blackcoffer partnered with the client to transform insurance claim processing for their auto insurance customers. A multi-step project was defined that reflected client business priorities.
+Blackcoffer delivered data management, data analytics, machine learning, artificial intelligence, simulation, and insurance claims application services while assisting the client through each stage of the project.
+Blackcoffer set up the automation and AI application for claim processing to the client’s server, and replaced their existing manual process with AI-driven and automation application services. The application was established as a centralized global service desk that operates during the business hours for all business locations, globally.
+The result of the developed application service is a well-defined solution for global services that incorporate efficient simulation and estimation of the identified major and minor damages, best practices, process standardization and continuous improvement across the spectrum of services and processes.
+Business Impact
+- Automated the process of Identification of the amount of damage to the vehicle.
+- Categorized the damage in two parts, minor damage, and major damage with an accuracy of 92%.
+- Reduced the time of insurance claim identification process from weeks to minutes.
+- Lowered operational cost by more than 60% by establishing automation and AI driven application service.
+- Enhanced customer experience by fastening the damage claimed amount processing.
+- Increased revenue by 25% by establishing an AI-driven application service to process claims faster that have helped to acquire more customers.
+Technologies Used: Python, Azure, Tensorflow
+Models Used: Deep Learning, CNN, Keras, AI Models, Simulation Methods, and Statistical Models.

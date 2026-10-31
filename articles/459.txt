@@ -1,0 +1,14 @@
+Complete List of Software Development AI Tools & AI Software
+
+1. AI Coding Assistants
+2. AI Integrated Development Environments (IDEs)
+3. AI Code Review & Quality
+4. AI Testing & QA Automation
+5. AI DevOps & CI/CD
+6. AI Documentation & Knowledge Management
+7. AI Project Management & Collaboration
+8. AI Productivity & Content Creation
+9. AI Data Science & Machine Learning Platforms
+10. AI Backend, APIs & LLM Frameworks
+Are you looking for a team? Post your project here: https://workcroft.com/
+Are you looking for projects? Find projects here: https://workcroft.com/
